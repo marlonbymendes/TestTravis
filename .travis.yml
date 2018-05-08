@@ -9,3 +9,8 @@ install:
 # command to run tests
 script:
   - pytest -v
+  - coverage run test_app.py
+  - coverage report
+
+after_success:
+  - codecov
