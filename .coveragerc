@@ -1,0 +1,4 @@
+[run]
+omit =
+    # Unit tests code
+    test_*.py
