@@ -1,13 +1,16 @@
 def sum_int(a, b):
-    return a + b
+    res = a + b
+    return res
 
 def sum_int_mod(a, b, m):
-    return sum_int(a, b) % m
+    res = sum_int(a, b) % m
+    return res
 
 def sum_str(a, b):
     assert(type(a) == str)
     assert(type(b) == str)
-    return (a + b)
+    res = (a + b)
+    return res
 
 def sum_histogram(a, b):
     print('start')
