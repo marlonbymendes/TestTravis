@@ -7,7 +7,4 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - pytest -v
-  - coverage run test_app.py
-  - coverage report
-  - codecov
+  - sh run_tests.sh
